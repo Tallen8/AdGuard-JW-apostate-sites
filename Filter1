@@ -2,32 +2,61 @@
 ! Description: Blocks websites that target, falsify, or speak negatively about Jehovah's Witnesses
 ! Verified active sites only - AI-generated filler removed
 ! Last updated: May 2026
-! Format: AdGuard Home / uBlock Origin compatible
+! Format: AdGuard Home compatible
 !
 ! =============================================
 ! TIER 1 - HIGH PRIORITY
-! Major, high-traffic sites - confirmed active
+! Major, high-traffic sites - confirmed active 2025/2026
 ! =============================================
 
+! Largest ex-JW fact/criticism site globally - updated Jan 2026
 ||jwfacts.com^
+
+! JWsurvey rebranded - active news/commentary site
 ||jwwatch.org^
 ||jwsurvey.org^
+
+! Document archive - confidential JW publications and leaks
 ||avoidjw.org^
+
+! Active leak/accountability site - posting 2025 BC court docs
 ||jwleaks.org^
+
+! Child abuse advocacy org - posted articles May 2025
 ||silentlambs.org^
+||silentlambs.net^
+
+! Barbara Anderson's document archive - updated Jan 2026
 ||watchtowerdocuments.org^
+
+! Cult research database - Randy Watters, long-running ex-JW resource
 ||freeminds.org^
+
+! Blood transfusion reform org - major doctrinal update post March 2026
 ||ajwrb.org^
+
+! Darrel Ray's religion-recovery nonprofit - JW community is primary userbase
 ||recoveringfromreligion.org^
+||recoveringfromreligion.com^
+
+! Steven Hassan cult expert - Freedom of Mind Resource Center
 ||freedomofmind.com^
+
+! Active JW abuse victim news site - posted May 25 2025
 ||jwvictims.org^
+
+! Former JW Bible study community - active 2025
 ||beroeans.net^
+
+! Meleti Vivlon ex-JW blog - active
 ||meletivivlon.com^
+
+! Leaked confidential JW documents - confirmed active
 ||faithleaks.org^
 
 ! =============================================
 ! TIER 2 - CONFIRMED ACTIVE
-! Smaller or niche sites - real and Google-indexed
+! Smaller/niche but real, indexed, and accessible
 ! =============================================
 
 ||jwstruggle.com^
@@ -46,10 +75,14 @@
 ||culteducation.com^
 ||ex-cult.org^
 ||cultwatch.com^
+
+! Large mixed discussion forum - JW content prominent
 ||jehovahs-witness.com^
 ||jehovahswitnessdiscussion.com^
+
+! Targets JW youth doubting the faith
 ||jw.support^
-||silentlambs.net^
+
 ||ad1914.com^
 ||watchtowermonitor.org^
 ||jwadviser.com^
@@ -57,40 +90,34 @@
 ||jwinfo.org^
 ||watchtower.expert^
 ||jehovah.to^
+||exjwcriticalthinker.com^
 
 ! =============================================
-! TIER 3 - SOCIAL / COMMUNITY PLATFORMS
-! JW-specific subdomains/sections
+! TIER 3 - NEW ADDITIONS (2025/2026 research)
+! All confirmed active via search results
+! =============================================
+
+! SaySorry - active accountability/support site, linked from JW Leaks 2025
+||saysorry.org^
+
+! JW Child Abuse - active news site posting May 2025 court case coverage
+||jwchildabuse.org^
+
+! Bonnie Zieman - retired psychotherapist, former JW, major book/blog presence
+||bonniezieman.com^
+
+! EXJW Critical Thinker - major podcast/YouTube channel with companion website
+
+! JW News Substack newsletter - active weekly publication as of 2025
+||wtwnewsletter.substack.com^
+
+! Cult Education Institute forum - prominent in Google results for JW searches
+||culteducationforum.com^
+
+! =============================================
+! TIER 4 - SOCIAL PLATFORMS (JW-specific paths)
+! Note: DNS-level blocking of Reddit paths has limited effectiveness.
+! For full subreddit blocking, use uBlock Origin browser extension rules.
 ! =============================================
 
 ||reddit.com/r/exjw^
-||wtwnewsletter.substack.com^
-
-! =============================================
-! TIER 4 - NEW ADDITIONS
-! Found via 2025-2026 research, confirmed active
-! =============================================
-
-! lloydEvans is one of the most prominent ex-JW activists/YouTubers globally
-||lloydEvans.substack.com^
-
-! JW Support site specifically targeting youth doubting the faith
-
-! Recovering from Religion - broadly targets all religions but
-! heavily used by ex-JW community, ranks high on Google
-||recoveringfromreligion.com^
-
-! Watchtower Information Service - active document archive site
-
-! JW News Substack newsletter - active weekly ex-JW news publication
-
-! Cult Education Institute - large cult-watch database, JW section prominent
-||culteducationforum.com^
-
-! Freedom of Mind - Steven Hassan's anti-cult resource, JW content prominent
-
-! =============================================
-! REMOVED FROM ORIGINAL LIST (no longer active or AI-generated)
-! The following were phantom/AI-generated domains not pointing to real sites:
-! Lines ~100-692 of the original list were bulk AI filler and have been culled.
-! =============================================
